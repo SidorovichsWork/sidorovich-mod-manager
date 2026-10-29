@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name" translatable="false">Sidorovich\'s Mod Manager Beta</string>
+    <string name="message_000" formatted="false">"Unsafe path: "</string>
+    <string name="message_001" formatted="false">"Path outside package: "</string>
+    <string name="message_002" formatted="false">"Ambiguous filename: "</string>
+    <string name="message_003" formatted="false">"Destination outside gamedata: "</string>
+    <string name="message_004" formatted="false">"The package attempts to install an executable: "</string>
+    <string name="message_005" formatted="false">"Could not create "</string>
+    <string name="message_006" formatted="false">"Could not remove "</string>
+    <string name="message_007" formatted="false">"Import storage allowance exceeded"</string>
+    <string name="message_008" formatted="false">"Installer XML is too large"</string>
+    <string name="message_009" formatted="false">"The installer declares external XML entities"</string>
+    <string name="message_010" formatted="false">"Unknown FOMOD"</string>
+    <string name="message_011" formatted="false">"FOMOD mod"</string>
+    <string name="message_012" formatted="false">"Options"</string>
+    <string name="message_013" formatted="false">"Components"</string>
+    <string name="message_014" formatted="false">"Unsupported FOMOD rule: "</string>
+    <string name="message_015" formatted="false">"Component"</string>
+    <string name="message_016" formatted="false">"This installer\'s declared dependencies are not satisfied"</string>
+    <string name="message_017" formatted="false">"Unsupported FOMOD dependency: "</string>
+    <string name="message_018" formatted="false">". Use manual selection or consult the mod\'s instructions."</string>
+    <string name="message_019" formatted="false">"Unknown FOMOD type: "</string>
+    <string name="message_020" formatted="false">"Invalid selection: "</string>
+    <string name="message_021" formatted="false">"Check this group: "</string>
+    <string name="message_022" formatted="false">"Unsupported FOMOD action: "</string>
+    <string name="message_023" formatted="false">"The installer references a missing file or folder: "</string>
+    <string name="message_024" formatted="false">"The selection installs no gamedata files"</string>
+    <string name="message_025" formatted="false">"Your Zone, your way."</string>
+    <string name="message_026" formatted="false">"Install, order and restore mods directly in the port."</string>
+    <string name="message_027" formatted="false">"An installation was interrupted. Restore the previous files before continuing."</string>
+    <string name="message_028" formatted="false">"Recover installation"</string>
+    <string name="message_029" formatted="false">"Recovering"</string>
+    <string name="message_030" formatted="false">"Previous files restored"</string>
+    <string name="message_031" formatted="false">"1 · Choose the game folder"</string>
+    <string name="message_032" formatted="false">"✓ Game folder linked"</string>
+    <string name="message_033" formatted="false">"Choose Anomaly folder"</string>
+    <string name="message_034" formatted="false">"Change game folder"</string>
+    <string name="message_035" formatted="false">"Remove the library\'s mods before changing games."</string>
+    <string name="message_036" formatted="false">"Library"</string>
+    <string name="message_037" formatted="false">"The last enabled mod takes priority. Changes are applied together."</string>
+    <string name="message_038" formatted="false">" files · "</string>
+    <string name="message_039" formatted="false">"Remove"</string>
+    <string name="message_040" formatted="false">"Keep installed and free space"</string>
+    <string name="message_041" formatted="false">"Import your first mod: ZIP, 7z or an extracted folder."</string>
+    <string name="message_042" formatted="false">"Integrated into the game"</string>
+    <string name="message_043" formatted="false">"Only this record is retained. These mods are now part of the base installation and cannot be uninstalled using the app."</string>
+    <string name="message_044" formatted="false">"Import ZIP or 7z"</string>
+    <string name="message_045" formatted="false">"Import a folder"</string>
+    <string name="message_046" formatted="false">"Review and apply changes"</string>
+    <string name="message_047" formatted="false">"How it works"</string>
+    <string name="message_048" formatted="false">"Clear temporary packages"</string>
+    <string name="message_049" formatted="false">"Clearing temporary storage"</string>
+    <string name="message_050" formatted="false">"Temporary packages removed; library and backups retained"</string>
+    <string name="message_051" formatted="false">"Close the game before applying changes. The library and backups are stored in this app: do not clear its data or uninstall it while you need to revert mods."</string>
+    <string name="message_052" formatted="false">"Choose the game folder first."</string>
+    <string name="message_053" formatted="false">"Apply pending changes first."</string>
+    <string name="message_054" formatted="false">"Calculating reclaimable space"</string>
+    <string name="message_055" formatted="false">"Review the mods to keep installed"</string>
+    <string name="message_056" formatted="false">"Use this option after testing that the mod works.\n\nThese mods will stay installed:\n"</string>
+    <string name="message_057" formatted="false">"\nThese mods share files with earlier layers. They are integrated together to preserve the current order and behavior.\n"</string>
+    <string name="message_058" formatted="false">"\nEstimated reclaimable space: "</string>
+    <string name="message_059" formatted="false">"\nShared data still needed: "</string>
+    <string name="message_060" formatted="false">"\n\nThe app will delete only library and backup data that is no longer needed. Game files will remain intact.\n\nYou will no longer be able to disable or uninstall these mods using the app. New mods can still be installed on top.\n\nHave you tested them and want to keep them installed?"</string>
+    <string name="message_061" formatted="false">"Cancel"</string>
+    <string name="message_062" formatted="false">"Yes, keep and free space"</string>
+    <string name="message_063" formatted="false">"Checking installation"</string>
+    <string name="message_064" formatted="false">"Installation retained · "</string>
+    <string name="message_065" formatted="false">" freed"</string>
+    <string name="message_066" formatted="false">"Disable the mod and apply changes before removing it from the library."</string>
+    <string name="message_067" formatted="false">"Remove from library"</string>
+    <string name="message_068" formatted="false">"The disabled mod will be removed and data no other mod needs will be deleted. Game files will not change."</string>
+    <string name="message_069" formatted="false">"Removing from library"</string>
+    <string name="message_070" formatted="false">"Mod removed · "</string>
+    <string name="message_071" formatted="false">"Mods will be applied from top to bottom. Original files will be retained and copied files verified.\n\n"</string>
+    <string name="message_072" formatted="false">" paths shared by enabled mods."</string>
+    <string name="message_073" formatted="false">"\n\nScript or configuration conflicts may require a patch from the author. Close the game before continuing."</string>
+    <string name="message_074" formatted="false">"Apply installation"</string>
+    <string name="message_075" formatted="false">"Back"</string>
+    <string name="message_076" formatted="false">"Apply"</string>
+    <string name="message_077" formatted="false">"Preparing installation"</string>
+    <string name="message_078" formatted="false">"Changes applied and copies verified"</string>
+    <string name="message_079" formatted="false">"Linking game"</string>
+    <string name="message_080" formatted="false">"Game folder linked"</string>
+    <string name="message_081" formatted="false">"Imported mod"</string>
+    <string name="message_082" formatted="false">"Imported folder"</string>
+    <string name="message_083" formatted="false">"Reading package"</string>
+    <string name="message_084" formatted="false">"Could not open the folder"</string>
+    <string name="message_085" formatted="false">"Could not read the file"</string>
+    <string name="message_086" formatted="false">"Empty or incomplete archive"</string>
+    <string name="message_087" formatted="false">"Format not directly supported. Extract the RAR, TAR or split archive with an archive tool, then use Import a folder."</string>
+    <string name="message_088" formatted="false">"Package ready to configure"</string>
+    <string name="message_089" formatted="false">"Too many files"</string>
+    <string name="message_090" formatted="false">"Invalid name"</string>
+    <string name="message_091" formatted="false">"Could not read "</string>
+    <string name="message_092" formatted="false">"Reading folder · "</string>
+    <string name="message_093" formatted="false">" items"</string>
+    <string name="message_094" formatted="false">"Configure mod"</string>
+    <string name="message_095" formatted="false">"This package includes a FOMOD installer with options."</string>
+    <string name="message_096" formatted="false">"Open installer · "</string>
+    <string name="message_097" formatted="false">"Choose folders manually"</string>
+    <string name="message_098" formatted="false">"Back to library"</string>
+    <string name="message_099" formatted="false">" · Step "</string>
+    <string name="message_100" formatted="false">" of "</string>
+    <string name="message_101" formatted="false">" · required"</string>
+    <string name="message_102" formatted="false">" · recommended"</string>
+    <string name="message_103" formatted="false">"Continue"</string>
+    <string name="message_104" formatted="false">"Restart options"</string>
+    <string name="message_105" formatted="false">"All are included"</string>
+    <string name="message_106" formatted="false">"Choose one option"</string>
+    <string name="message_107" formatted="false">"Choose at least one"</string>
+    <string name="message_108" formatted="false">"Choose at most one"</string>
+    <string name="message_109" formatted="false">"Choose the components you want"</string>
+    <string name="message_110" formatted="false">"Select components"</string>
+    <string name="message_111" formatted="false">"Choose only the folders specified by the mod\'s instructions. If they share files, later entries take priority."</string>
+    <string name="message_112" formatted="false">"Folder contents"</string>
+    <string name="message_113" formatted="false">"No gamedata folders or folders containing configs, scripts, textures or other resources were found. Check the package and its instructions."</string>
+    <string name="message_114" formatted="false">"Select at least one component"</string>
+    <string name="message_115" formatted="false">"Component order"</string>
+    <string name="message_116" formatted="false">"Place the main mod first, followed by its patches. The last component takes priority when files overlap."</string>
+    <string name="message_117" formatted="false">"Move up"</string>
+    <string name="message_118" formatted="false">"Move down"</string>
+    <string name="message_119" formatted="false">"Review mod"</string>
+    <string name="message_120" formatted="false">"Change selection"</string>
+    <string name="message_121" formatted="false">"Add to your library"</string>
+    <string name="message_122" formatted="false">"It will be disabled when added. Enable it in the library, check the order and apply changes when ready."</string>
+    <string name="message_123" formatted="false">"The app installs gamedata resources. Engine changes, Windows executables and manual patches are outside this installer\'s scope."</string>
+    <string name="message_124" formatted="false">"Add mod"</string>
+    <string name="message_125" formatted="false">"Enter a name for the mod."</string>
+    <string name="message_126" formatted="false">"Importing mod"</string>
+    <string name="message_127" formatted="false">"Mod added. Enable it and apply changes."</string>
+    <string name="message_128" formatted="false">"Back to options"</string>
+    <string name="message_129" formatted="false">"Installing with control"</string>
+    <string name="message_130" formatted="false">"1. Select the port\'s openxray folder, not the Download root.\n2. Import a ZIP, 7z or extracted folder.\n3. Follow the FOMOD options or choose components manually.\n4. Enable mods in the order specified by their authors; the last takes priority.\n5. Review and apply with the game closed.\n\nTo uninstall: disable the mod and apply. The previous mod\'s version or the original file will be restored.\n\nRAR, split archives and other formats: extract first, then import the folder. Mods requiring DLLs, EXEs, patching tools or engine features missing from the port may be incompatible.\n\nMods installed before using this app are retained as the original state; they do not automatically appear in the library.\n\nImporting needs space for the extracted package and library. Keep a separate copy of your saves. Do not clear this app\'s data while you need its backups."</string>
+    <string name="message_131" formatted="false">"Got it"</string>
+    <string name="message_132" formatted="false">"Please check"</string>
+    <string name="message_133" formatted="false">"Could not complete the operation"</string>
+    <string name="message_134" formatted="false">"An operation is in progress. You can leave the app in the background; check its status before opening the game."</string>
+    <string name="message_135" formatted="false">"Invalid file fingerprint"</string>
+    <string name="message_136" formatted="false">"Recover the interrupted operation first"</string>
+    <string name="message_137" formatted="false">"Saving library · "</string>
+    <string name="message_138" formatted="false">"Could not confirm removal: "</string>
+    <string name="message_139" formatted="false">"A library file is missing or damaged: "</string>
+    <string name="message_140" formatted="false">"Copy verification failed: "</string>
+    <string name="message_141" formatted="false">"An operation is awaiting recovery"</string>
+    <string name="message_142" formatted="false">"The file changed outside the app: "</string>
+    <string name="message_143" formatted="false">". It was not replaced. Preserve your changes and check the installation."</string>
+    <string name="message_144" formatted="false">"Preparing backup · "</string>
+    <string name="message_145" formatted="false">"Applying · "</string>
+    <string name="message_146" formatted="false">"The operation was interrupted. Use Recover before continuing. "</string>
+    <string name="message_147" formatted="false">"Restoring · "</string>
+    <string name="message_148" formatted="false">"Recover the interrupted operation first"</string>
+    <string name="message_149" formatted="false">"The mod must be installed and enabled. Apply its changes first."</string>
+    <string name="message_150" formatted="false">"The library changed. Review the selection again."</string>
+    <string name="message_151" formatted="false">"Checking installation · "</string>
+    <string name="message_152" formatted="false">"An installed file changed or is missing: "</string>
+    <string name="message_153" formatted="false">". Its data was not cleared."</string>
+    <string name="message_154" formatted="false">"Data needed to restore another mod is missing: "</string>
+    <string name="message_155" formatted="false">"Clearing library and backup data that is no longer needed"</string>
+    <string name="message_156" formatted="false">"The mods were integrated without changing their game files, but cleanup could not finish. Use Clear temporary packages to retry. "</string>
+    <string name="message_157" formatted="false">"The package contains too many files"</string>
+    <string name="message_158" formatted="false">"Unnamed file"</string>
+    <string name="message_159" formatted="false">"Duplicate paths differing only in case: "</string>
+    <string name="message_160" formatted="false">"Invalid path"</string>
+    <string name="message_161" formatted="false">"Extracting · "</string>
+    <string name="message_162" formatted="false">" files"</string>
+    <string name="message_163" formatted="false">"Unnamed 7z entry"</string>
+    <string name="message_164" formatted="false">"The archive contains unsupported 7z deletion instructions"</string>
+    <string name="message_165" formatted="false">"Duplicate paths: "</string>
+    <string name="message_166" formatted="false">"No installable files in the selection"</string>
+    <string name="message_167" formatted="false">"Could not open the selected folder"</string>
+    <string name="message_168" formatted="false">"Select the port\'s openxray folder (the one containing fsgame.ltx)"</string>
+    <string name="message_169" formatted="false">"No write access to gamedata"</string>
+    <string name="message_170" formatted="false">"Could not read a game folder"</string>
+    <string name="message_171" formatted="false">"Ambiguous filenames found: "</string>
+    <string name="message_172" formatted="false">"A file occupies a folder path: "</string>
+    <string name="message_173" formatted="false">"Expected a file: "</string>
+    <string name="message_174" formatted="false">"Could not write "</string>
+    <string name="message_175" formatted="false">"Ready to start"</string>
+    <string name="message_176" formatted="false">"An operation is already in progress"</string>
+    <string name="message_177" formatted="false">"Mod installation"</string>
+    <string name="message_178" formatted="false">"Operation in progress. Check progress in the app."</string>
+    <string name="message_179" formatted="false">"The operation did not finish"</string>
+    <string name="language">"Language"</string>
+    <string name="language_hint">"The app interface changes language. Mod authors\' descriptions keep their original language."</string>
+</resources>

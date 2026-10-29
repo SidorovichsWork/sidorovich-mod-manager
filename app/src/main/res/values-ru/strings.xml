@@ -1,0 +1,185 @@
+<resources>
+
+    <string name="message_000" formatted="false">"Небезопасный путь: "</string>
+    <string name="message_001" formatted="false">"Путь за пределами пакета: "</string>
+    <string name="message_002" formatted="false">"Неоднозначное имя файла: "</string>
+    <string name="message_003" formatted="false">"Путь назначения вне gamedata: "</string>
+    <string name="message_004" formatted="false">"Пакет пытается установить исполняемый файл: "</string>
+    <string name="message_005" formatted="false">"Не удалось создать "</string>
+    <string name="message_006" formatted="false">"Не удалось удалить "</string>
+    <string name="message_007" formatted="false">"Превышен лимит места для импорта"</string>
+    <string name="message_008" formatted="false">"XML установщика слишком велик"</string>
+    <string name="message_009" formatted="false">"Установщик объявляет внешние XML-сущности"</string>
+    <string name="message_010" formatted="false">"Неизвестный FOMOD"</string>
+    <string name="message_011" formatted="false">"Мод FOMOD"</string>
+    <string name="message_012" formatted="false">"Параметры"</string>
+    <string name="message_013" formatted="false">"Компоненты"</string>
+    <string name="message_014" formatted="false">"Неподдерживаемое правило FOMOD: "</string>
+    <string name="message_015" formatted="false">"Компонент"</string>
+    <string name="message_016" formatted="false">"Не выполнены зависимости этого установщика"</string>
+    <string name="message_017" formatted="false">"Неподдерживаемая зависимость FOMOD: "</string>
+    <string name="message_018" formatted="false">". Выберите компоненты вручную или прочитайте инструкцию мода."</string>
+    <string name="message_019" formatted="false">"Неизвестный тип FOMOD: "</string>
+    <string name="message_020" formatted="false">"Недопустимый выбор: "</string>
+    <string name="message_021" formatted="false">"Проверьте группу: "</string>
+    <string name="message_022" formatted="false">"Неподдерживаемое действие FOMOD: "</string>
+    <string name="message_023" formatted="false">"Установщик ссылается на отсутствующий файл или папку: "</string>
+    <string name="message_024" formatted="false">"Выбранные компоненты не содержат файлов gamedata"</string>
+    <string name="message_025" formatted="false">"Твоя Зона, твои правила."</string>
+    <string name="message_026" formatted="false">"Устанавливайте, упорядочивайте и восстанавливайте моды прямо в порте."</string>
+    <string name="message_027" formatted="false">"Установка была прервана. Восстановите прежние файлы перед продолжением."</string>
+    <string name="message_028" formatted="false">"Восстановить установку"</string>
+    <string name="message_029" formatted="false">"Восстановление"</string>
+    <string name="message_030" formatted="false">"Прежние файлы восстановлены"</string>
+    <string name="message_031" formatted="false">"1 · Выберите папку игры"</string>
+    <string name="message_032" formatted="false">"✓ Папка игры подключена"</string>
+    <string name="message_033" formatted="false">"Выбрать папку Anomaly"</string>
+    <string name="message_034" formatted="false">"Изменить папку игры"</string>
+    <string name="message_035" formatted="false">"Перед сменой игры удалите моды из библиотеки."</string>
+    <string name="message_036" formatted="false">"Библиотека"</string>
+    <string name="message_037" formatted="false">"Последний включённый мод имеет приоритет. Изменения применяются вместе."</string>
+    <string name="message_038" formatted="false">" файлов · "</string>
+    <string name="message_039" formatted="false">"Удалить"</string>
+    <string name="message_040" formatted="false">"Оставить установленным и освободить место"</string>
+    <string name="message_041" formatted="false">"Импортируйте первый мод: ZIP, 7z или распакованную папку."</string>
+    <string name="message_042" formatted="false">"Интегрированы в игру"</string>
+    <string name="message_043" formatted="false">"Сохранена только эта запись. Эти моды стали частью базовой установки, и удалить их через приложение нельзя."</string>
+    <string name="message_044" formatted="false">"Импортировать ZIP или 7z"</string>
+    <string name="message_045" formatted="false">"Импортировать папку"</string>
+    <string name="message_046" formatted="false">"Проверить и применить изменения"</string>
+    <string name="message_047" formatted="false">"Как это работает"</string>
+    <string name="message_048" formatted="false">"Удалить временные пакеты"</string>
+    <string name="message_049" formatted="false">"Очистка временных файлов"</string>
+    <string name="message_050" formatted="false">"Временные пакеты удалены; библиотека и резервные копии сохранены"</string>
+    <string name="message_051" formatted="false">"Закройте игру перед применением изменений. Библиотека и резервные копии хранятся в приложении: не очищайте его данные и не удаляйте его, пока нужен откат модов."</string>
+    <string name="message_052" formatted="false">"Сначала выберите папку игры."</string>
+    <string name="message_053" formatted="false">"Сначала примените ожидающие изменения."</string>
+    <string name="message_054" formatted="false">"Расчёт освобождаемого места"</string>
+    <string name="message_055" formatted="false">"Проверьте моды, которые останутся установленными"</string>
+    <string name="message_056" formatted="false">"Используйте эту функцию после проверки работы мода.\n\nЭти моды останутся установленными:\n"</string>
+    <string name="message_057" formatted="false">"\nЭти моды используют общие файлы с предыдущими слоями. Они интегрируются вместе, чтобы сохранить текущий порядок и поведение.\n"</string>
+    <string name="message_058" formatted="false">"\nПримерно освободится: "</string>
+    <string name="message_059" formatted="false">"\nОбщие данные, которые ещё нужны: "</string>
+    <string name="message_060" formatted="false">"\n\nПриложение удалит только ненужные данные библиотеки и резервных копий. Файлы игры останутся нетронутыми.\n\nВы больше не сможете отключить или удалить эти моды через приложение. Новые моды можно будет устанавливать поверх.\n\nВы проверили их работу и хотите оставить их установленными?"</string>
+    <string name="message_061" formatted="false">"Отмена"</string>
+    <string name="message_062" formatted="false">"Да, оставить и освободить место"</string>
+    <string name="message_063" formatted="false">"Проверка установки"</string>
+    <string name="message_064" formatted="false">"Установка сохранена · "</string>
+    <string name="message_065" formatted="false">" освобождено"</string>
+    <string name="message_066" formatted="false">"Отключите мод и примените изменения перед удалением из библиотеки."</string>
+    <string name="message_067" formatted="false">"Удалить из библиотеки"</string>
+    <string name="message_068" formatted="false">"Отключённый мод будет удалён вместе с данными, не нужными другим модам. Файлы игры не изменятся."</string>
+    <string name="message_069" formatted="false">"Удаление из библиотеки"</string>
+    <string name="message_070" formatted="false">"Мод удалён · "</string>
+    <string name="message_071" formatted="false">"Моды будут применены сверху вниз. Исходные файлы сохраняются, а скопированные файлы проверяются.\n\n"</string>
+    <string name="message_072" formatted="false">" путей используются несколькими включёнными модами."</string>
+    <string name="message_073" formatted="false">"\n\nКонфликты скриптов или настроек могут потребовать патча от автора. Закройте игру перед продолжением."</string>
+    <string name="message_074" formatted="false">"Применить установку"</string>
+    <string name="message_075" formatted="false">"Назад"</string>
+    <string name="message_076" formatted="false">"Применить"</string>
+    <string name="message_077" formatted="false">"Подготовка установки"</string>
+    <string name="message_078" formatted="false">"Изменения применены, копии проверены"</string>
+    <string name="message_079" formatted="false">"Подключение игры"</string>
+    <string name="message_080" formatted="false">"Папка игры подключена"</string>
+    <string name="message_081" formatted="false">"Импортированный мод"</string>
+    <string name="message_082" formatted="false">"Импортированная папка"</string>
+    <string name="message_083" formatted="false">"Чтение пакета"</string>
+    <string name="message_084" formatted="false">"Не удалось открыть папку"</string>
+    <string name="message_085" formatted="false">"Не удалось прочитать файл"</string>
+    <string name="message_086" formatted="false">"Архив пуст или повреждён"</string>
+    <string name="message_087" formatted="false">"Формат не поддерживается напрямую. Распакуйте RAR, TAR или многотомный архив архиватором, затем выберите «Импортировать папку»."</string>
+    <string name="message_088" formatted="false">"Пакет готов к настройке"</string>
+    <string name="message_089" formatted="false">"Слишком много файлов"</string>
+    <string name="message_090" formatted="false">"Недопустимое имя"</string>
+    <string name="message_091" formatted="false">"Не удалось прочитать "</string>
+    <string name="message_092" formatted="false">"Чтение папки · "</string>
+    <string name="message_093" formatted="false">" элементов"</string>
+    <string name="message_094" formatted="false">"Настроить мод"</string>
+    <string name="message_095" formatted="false">"Этот пакет содержит установщик FOMOD с параметрами."</string>
+    <string name="message_096" formatted="false">"Открыть установщик · "</string>
+    <string name="message_097" formatted="false">"Выбрать папки вручную"</string>
+    <string name="message_098" formatted="false">"Вернуться в библиотеку"</string>
+    <string name="message_099" formatted="false">" · Шаг "</string>
+    <string name="message_100" formatted="false">" из "</string>
+    <string name="message_101" formatted="false">" · обязательный"</string>
+    <string name="message_102" formatted="false">" · рекомендуемый"</string>
+    <string name="message_103" formatted="false">"Продолжить"</string>
+    <string name="message_104" formatted="false">"Сбросить выбор"</string>
+    <string name="message_105" formatted="false">"Включены все"</string>
+    <string name="message_106" formatted="false">"Выберите один вариант"</string>
+    <string name="message_107" formatted="false">"Выберите хотя бы один"</string>
+    <string name="message_108" formatted="false">"Выберите не более одного"</string>
+    <string name="message_109" formatted="false">"Выберите нужные компоненты"</string>
+    <string name="message_110" formatted="false">"Выбор компонентов"</string>
+    <string name="message_111" formatted="false">"Выбирайте только папки, указанные в инструкции мода. При совпадении файлов приоритет имеют последние в списке."</string>
+    <string name="message_112" formatted="false">"Содержимое папки"</string>
+    <string name="message_113" formatted="false">"Папки gamedata или папки с configs, scripts, textures и другими ресурсами не найдены. Проверьте пакет и его инструкцию."</string>
+    <string name="message_114" formatted="false">"Выберите хотя бы один компонент"</string>
+    <string name="message_115" formatted="false">"Порядок компонентов"</string>
+    <string name="message_116" formatted="false">"Поместите основной мод первым, затем его патчи. При совпадении файлов приоритет имеет последний компонент."</string>
+    <string name="message_117" formatted="false">"Вверх"</string>
+    <string name="message_118" formatted="false">"Вниз"</string>
+    <string name="message_119" formatted="false">"Проверить мод"</string>
+    <string name="message_120" formatted="false">"Изменить выбор"</string>
+    <string name="message_121" formatted="false">"Добавить в библиотеку"</string>
+    <string name="message_122" formatted="false">"После добавления мод будет отключён. Включите его в библиотеке, проверьте порядок и примените изменения."</string>
+    <string name="message_123" formatted="false">"Приложение устанавливает ресурсы gamedata. Изменения движка, исполняемые файлы Windows и ручные патчи этим установщиком не устанавливаются."</string>
+    <string name="message_124" formatted="false">"Добавить мод"</string>
+    <string name="message_125" formatted="false">"Введите название мода."</string>
+    <string name="message_126" formatted="false">"Импорт мода"</string>
+    <string name="message_127" formatted="false">"Мод добавлен. Включите его и примените изменения."</string>
+    <string name="message_128" formatted="false">"Вернуться к параметрам"</string>
+    <string name="message_129" formatted="false">"Управление установкой"</string>
+    <string name="message_130" formatted="false">"1. Выберите папку openxray порта, а не корень Download.\n2. Импортируйте ZIP, 7z или распакованную папку.\n3. Следуйте параметрам FOMOD или выберите компоненты вручную.\n4. Включите моды в порядке, указанном авторами; последний имеет приоритет.\n5. Проверьте и примените изменения при закрытой игре.\n\nДля удаления отключите мод и примените изменения. Будет восстановлена версия предыдущего мода или исходный файл.\n\nRAR, многотомные архивы и другие форматы сначала распакуйте, затем импортируйте папку. Моды, требующие DLL, EXE, утилит исправления или отсутствующих в порте функций движка, могут быть несовместимы.\n\nМоды, установленные до использования приложения, считаются исходным состоянием и автоматически не появляются в библиотеке.\n\nДля импорта нужно место под распакованный пакет и библиотеку. Храните отдельную копию сохранений. Не очищайте данные приложения, пока нужны его резервные копии."</string>
+    <string name="message_131" formatted="false">"Понятно"</string>
+    <string name="message_132" formatted="false">"Проверьте"</string>
+    <string name="message_133" formatted="false">"Не удалось завершить операцию"</string>
+    <string name="message_134" formatted="false">"Выполняется операция. Можно свернуть приложение; проверьте его состояние перед запуском игры."</string>
+    <string name="message_135" formatted="false">"Недопустимая контрольная сумма файла"</string>
+    <string name="message_136" formatted="false">"Сначала восстановите прерванную операцию"</string>
+    <string name="message_137" formatted="false">"Сохранение библиотеки · "</string>
+    <string name="message_138" formatted="false">"Не удалось подтвердить удаление: "</string>
+    <string name="message_139" formatted="false">"Файл библиотеки отсутствует или повреждён: "</string>
+    <string name="message_140" formatted="false">"Ошибка проверки копии: "</string>
+    <string name="message_141" formatted="false">"Операция ожидает восстановления"</string>
+    <string name="message_142" formatted="false">"Файл изменён вне приложения: "</string>
+    <string name="message_143" formatted="false">". Он не был заменён. Сохраните свои изменения и проверьте установку."</string>
+    <string name="message_144" formatted="false">"Подготовка резервной копии · "</string>
+    <string name="message_145" formatted="false">"Применение · "</string>
+    <string name="message_146" formatted="false">"Операция прервана. Восстановите её перед продолжением. "</string>
+    <string name="message_147" formatted="false">"Восстановление · "</string>
+    <string name="message_148" formatted="false">"Сначала восстановите прерванную операцию"</string>
+    <string name="message_149" formatted="false">"Мод должен быть установлен и включён. Сначала примените его изменения."</string>
+    <string name="message_150" formatted="false">"Библиотека изменилась. Проверьте выбор ещё раз."</string>
+    <string name="message_151" formatted="false">"Проверка установки · "</string>
+    <string name="message_152" formatted="false">"Установленный файл изменён или отсутствует: "</string>
+    <string name="message_153" formatted="false">". Его данные не были удалены."</string>
+    <string name="message_154" formatted="false">"Отсутствуют данные для восстановления другого мода: "</string>
+    <string name="message_155" formatted="false">"Удаление ненужных данных библиотеки и резервных копий"</string>
+    <string name="message_156" formatted="false">"Моды интегрированы без изменения файлов игры, но очистку завершить не удалось. Повторите её кнопкой «Удалить временные пакеты». "</string>
+    <string name="message_157" formatted="false">"Пакет содержит слишком много файлов"</string>
+    <string name="message_158" formatted="false">"Файл без имени"</string>
+    <string name="message_159" formatted="false">"Пути отличаются только регистром: "</string>
+    <string name="message_160" formatted="false">"Недопустимый путь"</string>
+    <string name="message_161" formatted="false">"Распаковка · "</string>
+    <string name="message_162" formatted="false">" файлов"</string>
+    <string name="message_163" formatted="false">"Элемент 7z без имени"</string>
+    <string name="message_164" formatted="false">"Архив содержит неподдерживаемые инструкции удаления 7z"</string>
+    <string name="message_165" formatted="false">"Повторяющиеся пути: "</string>
+    <string name="message_166" formatted="false">"Выбранные компоненты не содержат устанавливаемых файлов"</string>
+    <string name="message_167" formatted="false">"Не удалось открыть выбранную папку"</string>
+    <string name="message_168" formatted="false">"Выберите папку openxray порта, содержащую fsgame.ltx"</string>
+    <string name="message_169" formatted="false">"Нет доступа на запись в gamedata"</string>
+    <string name="message_170" formatted="false">"Не удалось прочитать папку игры"</string>
+    <string name="message_171" formatted="false">"Обнаружены неоднозначные имена файлов: "</string>
+    <string name="message_172" formatted="false">"Путь к папке занят файлом: "</string>
+    <string name="message_173" formatted="false">"Ожидался файл: "</string>
+    <string name="message_174" formatted="false">"Не удалось записать "</string>
+    <string name="message_175" formatted="false">"Готово к работе"</string>
+    <string name="message_176" formatted="false">"Операция уже выполняется"</string>
+    <string name="message_177" formatted="false">"Установка модов"</string>
+    <string name="message_178" formatted="false">"Выполняется операция. Следите за ходом в приложении."</string>
+    <string name="message_179" formatted="false">"Операция не завершена"</string>
+    <string name="language">"Язык"</string>
+    <string name="language_hint">"Меняется язык интерфейса приложения. Описания авторов модов остаются на исходном языке."</string>
+</resources>

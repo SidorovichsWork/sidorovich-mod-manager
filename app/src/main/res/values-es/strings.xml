@@ -1,0 +1,185 @@
+<resources>
+
+    <string name="message_000" formatted="false">"Ruta insegura: "</string>
+    <string name="message_001" formatted="false">"Ruta fuera del paquete: "</string>
+    <string name="message_002" formatted="false">"Nombre de archivo ambiguo: "</string>
+    <string name="message_003" formatted="false">"Destino fuera de gamedata: "</string>
+    <string name="message_004" formatted="false">"El paquete intenta instalar un ejecutable: "</string>
+    <string name="message_005" formatted="false">"No se pudo crear "</string>
+    <string name="message_006" formatted="false">"No se pudo retirar "</string>
+    <string name="message_007" formatted="false">"Se superó el espacio reservado para la importación"</string>
+    <string name="message_008" formatted="false">"Instalador XML demasiado grande"</string>
+    <string name="message_009" formatted="false">"El instalador declara entidades XML externas"</string>
+    <string name="message_010" formatted="false">"FOMOD desconocido"</string>
+    <string name="message_011" formatted="false">"Mod FOMOD"</string>
+    <string name="message_012" formatted="false">"Opciones"</string>
+    <string name="message_013" formatted="false">"Componentes"</string>
+    <string name="message_014" formatted="false">"Regla FOMOD no admitida: "</string>
+    <string name="message_015" formatted="false">"Componente"</string>
+    <string name="message_016" formatted="false">"No se cumplen las dependencias declaradas por este instalador"</string>
+    <string name="message_017" formatted="false">"Dependencia FOMOD no admitida: "</string>
+    <string name="message_018" formatted="false">". Usa selección manual o revisa las instrucciones del mod."</string>
+    <string name="message_019" formatted="false">"Tipo FOMOD desconocido: "</string>
+    <string name="message_020" formatted="false">"Selección inválida: "</string>
+    <string name="message_021" formatted="false">"Revisa el grupo: "</string>
+    <string name="message_022" formatted="false">"Acción FOMOD no admitida: "</string>
+    <string name="message_023" formatted="false">"El instalador referencia un archivo o carpeta ausente: "</string>
+    <string name="message_024" formatted="false">"La selección no instala archivos de gamedata"</string>
+    <string name="message_025" formatted="false">"Tu Zona, a tu manera."</string>
+    <string name="message_026" formatted="false">"Instala, ordena y restaura mods directamente en el port."</string>
+    <string name="message_027" formatted="false">"Hay una instalación interrumpida. Recupera los archivos anteriores antes de continuar."</string>
+    <string name="message_028" formatted="false">"Recuperar instalación"</string>
+    <string name="message_029" formatted="false">"Recuperando"</string>
+    <string name="message_030" formatted="false">"Archivos anteriores restaurados"</string>
+    <string name="message_031" formatted="false">"1 · Elige la carpeta del juego"</string>
+    <string name="message_032" formatted="false">"✓ Carpeta del juego vinculada"</string>
+    <string name="message_033" formatted="false">"Elegir carpeta de Anomaly"</string>
+    <string name="message_034" formatted="false">"Cambiar carpeta del juego"</string>
+    <string name="message_035" formatted="false">"Retira primero los mods de la biblioteca para cambiar de juego."</string>
+    <string name="message_036" formatted="false">"Biblioteca"</string>
+    <string name="message_037" formatted="false">"El último mod activo tiene prioridad. Los cambios se aplican juntos."</string>
+    <string name="message_038" formatted="false">" archivos · "</string>
+    <string name="message_039" formatted="false">"Retirar"</string>
+    <string name="message_040" formatted="false">"Conservar instalado y liberar espacio"</string>
+    <string name="message_041" formatted="false">"Importa tu primer mod. ZIP, 7z o una carpeta ya extraída."</string>
+    <string name="message_042" formatted="false">"Integrados en el juego"</string>
+    <string name="message_043" formatted="false">"Solo se conserva este registro. Ya forman parte de la instalación base y no se pueden desinstalar desde la app."</string>
+    <string name="message_044" formatted="false">"Importar ZIP o 7z"</string>
+    <string name="message_045" formatted="false">"Importar una carpeta"</string>
+    <string name="message_046" formatted="false">"Revisar y aplicar cambios"</string>
+    <string name="message_047" formatted="false">"Cómo funciona"</string>
+    <string name="message_048" formatted="false">"Liberar paquetes temporales"</string>
+    <string name="message_049" formatted="false">"Liberando espacio temporal"</string>
+    <string name="message_050" formatted="false">"Paquetes temporales retirados; biblioteca y respaldos conservados"</string>
+    <string name="message_051" formatted="false">"Cierra el juego antes de aplicar cambios. La biblioteca y los respaldos se guardan en esta aplicación: no borres sus datos ni la desinstales si necesitas revertir mods."</string>
+    <string name="message_052" formatted="false">"Elige primero la carpeta del juego."</string>
+    <string name="message_053" formatted="false">"Aplica primero los cambios pendientes."</string>
+    <string name="message_054" formatted="false">"Calculando espacio recuperable"</string>
+    <string name="message_055" formatted="false">"Revisa los mods que se conservarán instalados"</string>
+    <string name="message_056" formatted="false">"Usa esta opción cuando ya hayas probado que el mod funciona.\n\nSe conservarán instalados:\n"</string>
+    <string name="message_057" formatted="false">"\nEstos mods comparten archivos con capas anteriores. Se integran juntos para conservar el orden y el comportamiento actual.\n"</string>
+    <string name="message_058" formatted="false">"\nEspacio recuperable estimado: "</string>
+    <string name="message_059" formatted="false">"\nDatos compartidos que aún se necesitan: "</string>
+    <string name="message_060" formatted="false">"\n\nLa app eliminará únicamente los datos que ya no se necesitan de su biblioteca y respaldos. Los archivos del juego permanecerán intactos.\n\nDespués no podrás desactivar ni desinstalar estos mods desde la app. Los mods nuevos sí podrán instalarse encima.\n\n¿Ya los probaste y quieres conservarlos instalados?"</string>
+    <string name="message_061" formatted="false">"Cancelar"</string>
+    <string name="message_062" formatted="false">"Sí, conservar y liberar"</string>
+    <string name="message_063" formatted="false">"Comprobando instalación"</string>
+    <string name="message_064" formatted="false">"Instalación conservada · "</string>
+    <string name="message_065" formatted="false">" liberados"</string>
+    <string name="message_066" formatted="false">"Desactiva el mod y aplica los cambios antes de retirarlo de la biblioteca."</string>
+    <string name="message_067" formatted="false">"Retirar de la biblioteca"</string>
+    <string name="message_068" formatted="false">"Se retirará el mod desactivado y se liberarán los datos que ya no necesite ningún otro mod. No se cambiarán archivos del juego."</string>
+    <string name="message_069" formatted="false">"Retirando de la biblioteca"</string>
+    <string name="message_070" formatted="false">"Mod retirado · "</string>
+    <string name="message_071" formatted="false">"Los mods se aplicarán de arriba hacia abajo. Los originales se conservarán y los archivos copiados se verificarán.\n\n"</string>
+    <string name="message_072" formatted="false">" rutas compartidas entre mods activos."</string>
+    <string name="message_073" formatted="false">"\n\nLos conflictos entre scripts o configuraciones pueden requerir un parche del autor. Cierra el juego antes de continuar."</string>
+    <string name="message_074" formatted="false">"Aplicar instalación"</string>
+    <string name="message_075" formatted="false">"Volver"</string>
+    <string name="message_076" formatted="false">"Aplicar"</string>
+    <string name="message_077" formatted="false">"Preparando instalación"</string>
+    <string name="message_078" formatted="false">"Cambios aplicados y copias verificadas"</string>
+    <string name="message_079" formatted="false">"Vinculando juego"</string>
+    <string name="message_080" formatted="false">"Carpeta del juego vinculada"</string>
+    <string name="message_081" formatted="false">"Mod importado"</string>
+    <string name="message_082" formatted="false">"Carpeta importada"</string>
+    <string name="message_083" formatted="false">"Leyendo paquete"</string>
+    <string name="message_084" formatted="false">"No se pudo abrir la carpeta"</string>
+    <string name="message_085" formatted="false">"No se pudo leer el archivo"</string>
+    <string name="message_086" formatted="false">"Archivo vacío o incompleto"</string>
+    <string name="message_087" formatted="false">"Formato no admitido directamente. Extrae el RAR, TAR o paquete dividido con tu descompresor y usa Importar una carpeta."</string>
+    <string name="message_088" formatted="false">"Paquete listo para configurar"</string>
+    <string name="message_089" formatted="false">"Demasiados archivos"</string>
+    <string name="message_090" formatted="false">"Nombre inválido"</string>
+    <string name="message_091" formatted="false">"No se pudo leer "</string>
+    <string name="message_092" formatted="false">"Leyendo carpeta · "</string>
+    <string name="message_093" formatted="false">" elementos"</string>
+    <string name="message_094" formatted="false">"Configura el mod"</string>
+    <string name="message_095" formatted="false">"Este paquete incluye un instalador FOMOD con opciones."</string>
+    <string name="message_096" formatted="false">"Abrir instalador · "</string>
+    <string name="message_097" formatted="false">"Elegir carpetas manualmente"</string>
+    <string name="message_098" formatted="false">"Volver a la biblioteca"</string>
+    <string name="message_099" formatted="false">" · Paso "</string>
+    <string name="message_100" formatted="false">" de "</string>
+    <string name="message_101" formatted="false">" · necesario"</string>
+    <string name="message_102" formatted="false">" · recomendado"</string>
+    <string name="message_103" formatted="false">"Continuar"</string>
+    <string name="message_104" formatted="false">"Reiniciar opciones"</string>
+    <string name="message_105" formatted="false">"Se incluyen todos"</string>
+    <string name="message_106" formatted="false">"Elige una opción"</string>
+    <string name="message_107" formatted="false">"Elige al menos una"</string>
+    <string name="message_108" formatted="false">"Elige como máximo una"</string>
+    <string name="message_109" formatted="false">"Elige los componentes que quieras"</string>
+    <string name="message_110" formatted="false">"Selecciona componentes"</string>
+    <string name="message_111" formatted="false">"Elige solo las carpetas que indiquen las instrucciones del mod. Si comparten archivos, las últimas de la lista tienen prioridad."</string>
+    <string name="message_112" formatted="false">"Contenido de la carpeta"</string>
+    <string name="message_113" formatted="false">"No se detectaron carpetas gamedata ni carpetas con configs, scripts, textures u otros recursos. Revisa el paquete y sus instrucciones."</string>
+    <string name="message_114" formatted="false">"Selecciona al menos un componente"</string>
+    <string name="message_115" formatted="false">"Orden de componentes"</string>
+    <string name="message_116" formatted="false">"Pon primero el mod principal y después sus parches. El último componente tiene prioridad si hay archivos repetidos."</string>
+    <string name="message_117" formatted="false">"Subir"</string>
+    <string name="message_118" formatted="false">"Bajar"</string>
+    <string name="message_119" formatted="false">"Revisar mod"</string>
+    <string name="message_120" formatted="false">"Cambiar selección"</string>
+    <string name="message_121" formatted="false">"Añadir a tu biblioteca"</string>
+    <string name="message_122" formatted="false">"Al añadirlo quedará desactivado. Actívalo en la biblioteca, revisa el orden y aplica los cambios cuando estés listo."</string>
+    <string name="message_123" formatted="false">"La aplicación instala recursos de gamedata. Los cambios en el motor, ejecutables de Windows y parches manuales quedan fuera de este instalador."</string>
+    <string name="message_124" formatted="false">"Añadir mod"</string>
+    <string name="message_125" formatted="false">"Escribe un nombre para el mod."</string>
+    <string name="message_126" formatted="false">"Importando mod"</string>
+    <string name="message_127" formatted="false">"Mod añadido. Actívalo y aplica los cambios."</string>
+    <string name="message_128" formatted="false">"Volver a las opciones"</string>
+    <string name="message_129" formatted="false">"Instalar con control"</string>
+    <string name="message_130" formatted="false">"1. Selecciona openxray, no la raíz de Download.\n2. Importa un ZIP, 7z o carpeta extraída.\n3. Sigue las opciones FOMOD o elige componentes manualmente.\n4. Activa los mods en el orden indicado por sus autores; el último tiene prioridad.\n5. Revisa y aplica con el juego cerrado.\n\nPara desinstalar: desactiva el mod y aplica. Se recuperará la versión del mod anterior o el archivo original.\n\nRAR, paquetes divididos y otros formatos: extráelos primero e importa la carpeta. Los mods que usan DLL, EXE, herramientas de parcheo o funciones ausentes del port pueden no ser compatibles.\n\nLos mods ya instalados antes de usar esta app se conservan como estado original; no aparecen automáticamente en la biblioteca.\n\nLa importación necesita espacio para el paquete extraído y la biblioteca. Conserva aparte una copia de tus partidas. No borres los datos de esta app mientras necesites sus respaldos."</string>
+    <string name="message_131" formatted="false">"Entendido"</string>
+    <string name="message_132" formatted="false">"Revisa este detalle"</string>
+    <string name="message_133" formatted="false">"No se pudo completar la operación"</string>
+    <string name="message_134" formatted="false">"Hay una operación en curso. Puedes dejar la aplicación en segundo plano; consulta su estado antes de abrir el juego."</string>
+    <string name="message_135" formatted="false">"Huella de archivo inválida"</string>
+    <string name="message_136" formatted="false">"Primero recupera la operación interrumpida"</string>
+    <string name="message_137" formatted="false">"Guardando biblioteca · "</string>
+    <string name="message_138" formatted="false">"No se pudo confirmar la retirada: "</string>
+    <string name="message_139" formatted="false">"Falta un archivo de biblioteca o está dañado: "</string>
+    <string name="message_140" formatted="false">"La copia no coincide: "</string>
+    <string name="message_141" formatted="false">"Hay una operación pendiente de recuperación"</string>
+    <string name="message_142" formatted="false">"El archivo cambió fuera de la aplicación: "</string>
+    <string name="message_143" formatted="false">". No se reemplazó. Conserva tus cambios y revisa la instalación."</string>
+    <string name="message_144" formatted="false">"Preparando respaldo · "</string>
+    <string name="message_145" formatted="false">"Aplicando · "</string>
+    <string name="message_146" formatted="false">"La operación se interrumpió. Usa Recuperar antes de continuar. "</string>
+    <string name="message_147" formatted="false">"Restaurando · "</string>
+    <string name="message_148" formatted="false">"Recupera primero la operación interrumpida"</string>
+    <string name="message_149" formatted="false">"El mod debe estar instalado y activo. Aplica primero sus cambios."</string>
+    <string name="message_150" formatted="false">"La biblioteca cambió. Revisa de nuevo la selección."</string>
+    <string name="message_151" formatted="false">"Comprobando instalación · "</string>
+    <string name="message_152" formatted="false">"El archivo instalado cambió o falta: "</string>
+    <string name="message_153" formatted="false">". No se liberaron sus datos."</string>
+    <string name="message_154" formatted="false">"Faltan los datos que otro mod necesita para restaurar: "</string>
+    <string name="message_155" formatted="false">"Liberando biblioteca y respaldos que ya no se necesitan"</string>
+    <string name="message_156" formatted="false">"Los mods ya quedaron integrados sin cambiar sus archivos del juego, pero no se pudo terminar la limpieza. Usa Liberar paquetes temporales para reintentar. "</string>
+    <string name="message_157" formatted="false">"El paquete tiene demasiados archivos"</string>
+    <string name="message_158" formatted="false">"Archivo sin nombre"</string>
+    <string name="message_159" formatted="false">"Rutas duplicadas (mayúsculas/minúsculas): "</string>
+    <string name="message_160" formatted="false">"Ruta inválida"</string>
+    <string name="message_161" formatted="false">"Descomprimiendo · "</string>
+    <string name="message_162" formatted="false">" archivos"</string>
+    <string name="message_163" formatted="false">"Archivo 7z sin nombre"</string>
+    <string name="message_164" formatted="false">"El archivo contiene instrucciones de borrado 7z no admitidas"</string>
+    <string name="message_165" formatted="false">"Rutas duplicadas: "</string>
+    <string name="message_166" formatted="false">"No hay archivos instalables en la selección"</string>
+    <string name="message_167" formatted="false">"No se pudo abrir la carpeta elegida"</string>
+    <string name="message_168" formatted="false">"Selecciona la carpeta openxray del port (la que contiene fsgame.ltx)"</string>
+    <string name="message_169" formatted="false">"No hay acceso de escritura a gamedata"</string>
+    <string name="message_170" formatted="false">"No se pudo leer una carpeta del juego"</string>
+    <string name="message_171" formatted="false">"Hay archivos con nombres ambiguos: "</string>
+    <string name="message_172" formatted="false">"Una carpeta está ocupada por un archivo: "</string>
+    <string name="message_173" formatted="false">"Se esperaba un archivo: "</string>
+    <string name="message_174" formatted="false">"No se pudo escribir "</string>
+    <string name="message_175" formatted="false">"Listo para empezar"</string>
+    <string name="message_176" formatted="false">"Ya hay una operación en curso"</string>
+    <string name="message_177" formatted="false">"Instalación de mods"</string>
+    <string name="message_178" formatted="false">"Operación en curso. Consulta el progreso en la aplicación."</string>
+    <string name="message_179" formatted="false">"La operación no terminó"</string>
+    <string name="language">"Idioma"</string>
+    <string name="language_hint">"El idioma cambia la interfaz de la app. Las descripciones de los autores conservan su idioma original."</string>
+</resources>

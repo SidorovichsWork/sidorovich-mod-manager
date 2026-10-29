@@ -1,0 +1,17 @@
+configs/mcm_key_localization.ltx
+configs/text/eng/ui_st_mcm.xml
+configs/text/rus/ui_st_mcm.xml
+configs/ui/ui_mcm_16.xml
+configs/ui/ui_mcm.xml
+configs/ui/ui_mm_main_16.xml
+configs/ui/ui_mm_main.xml
+configs/ui/textures_descr/ui_mcm.xml
+scripts/dph_mcm_save_storage.script
+scripts/mcm_log.script
+scripts/modxml_mcm_rus.script
+scripts/ui_main_menu.script
+scripts/ui_mcm.script
+textures/AMCM_Banner.dds
+textures/LogoAMCM.dds
+textures/ui/ui_mcm.dds
+VERSIONS/AMCM.ltx

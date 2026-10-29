@@ -1,0 +1,35 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'cr.zone.modinstaller'
+    compileSdk 35
+    bundle { language { enableSplit = false } }
+    defaultConfig {
+        applicationId 'com.sidorovichswork.modmanager'
+        minSdk 26
+        targetSdk 35
+        versionCode 1
+        versionName '0.2.0-beta.1'
+    }
+    compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17; coreLibraryDesugaringEnabled true }
+    signingConfigs {
+        release {
+            if (System.getenv('SMM_KEYSTORE')) {
+                storeFile file(System.getenv('SMM_KEYSTORE'))
+                storePassword System.getenv('SMM_STORE_PASSWORD')
+                keyAlias System.getenv('SMM_KEY_ALIAS')
+                keyPassword System.getenv('SMM_KEY_PASSWORD')
+            }
+        }
+    }
+    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.release } }
+    testOptions { unitTests.returnDefaultValues = true }
+    packaging { resources.excludes += ['META-INF/DEPENDENCIES','META-INF/LICENSE*','META-INF/NOTICE*'] }
+}
+dependencies {
+    implementation 'androidx.documentfile:documentfile:1.0.1'
+    implementation 'org.apache.commons:commons-compress:1.28.0'
+    implementation 'org.tukaani:xz:1.10'
+    coreLibraryDesugaring 'com.android.tools:desugar_jdk_libs:2.1.5'
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation 'org.json:json:20240303'
+}
